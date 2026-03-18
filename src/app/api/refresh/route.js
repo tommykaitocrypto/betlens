@@ -1,4 +1,5 @@
 // src/app/api/refresh/route.js
+export const dynamic = "force-dynamic";
 //
 // GET /api/refresh → fetches upcoming matches (J+3) from football-data.org,
 // enriches them via Claude API, returns JSON.
